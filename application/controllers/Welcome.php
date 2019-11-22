@@ -44,4 +44,52 @@ class Welcome extends CI_Controller {
 		$this->load->view('master',$data);
 	}
 
+	public function job_board()
+	{
+		$data = array();
+		$data['title'] = 'Job Board Page';
+		$data['maint_content'] = $this->load->View('pages/job_board_page.php','',TRUE);
+		$this->load->view('master',$data);
+	}
+
+public function job_board_details()
+{
+	$data = array();
+	$data['title'] = 'Job Board Details Page';
+	$data['maint_content'] = $this->load->View('pages/job_board_details.php','',TRUE);
+	$this->load->view('master',$data);
+}
+
+public function login_register()
+{
+	$data = array();
+	$data['title'] = 'Login Register Page';
+	$data['maint_content'] = $this->load->View('pages/login_register_page.php','',TRUE);
+	$this->load->view('master',$data);
+}
+
+public function pricing()
+{
+	$data = array();
+	$data['title'] = 'Pricing Page';
+	$data['maint_content'] = $this->load->View('pages/pricing_page.php','',TRUE);
+	$this->load->view('master',$data);
+}
+
+public function professional()
+{
+	$data = array();
+	$data['title'] = 'Professional Page';
+	$data['maint_content'] = $this->load->View('pages/professional_page.php','',TRUE);
+	$this->load->view('master',$data);
+}
+
+public function professional_details()
+{
+	$data = array();
+	$data['title'] = 'Professional Details Page';
+	$data['maint_content'] = $this->load->View('pages/professional_details_page.php','',TRUE);
+	$this->load->view('master',$data);
+}
+
 }

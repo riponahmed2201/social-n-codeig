@@ -55,45 +55,45 @@
               <ul class="dropdown-menu">
                 <li> <a href="<?php echo base_url();?>index.php/Welcome">Home </a> </li>
                 <li> <a href="<?php echo base_url();?>index.php/Welcome/about">About </a> </li>
-                <li> <a href="pricing.html">Pricing </a> </li>
-                <li> <a href="login-register.html">Login / Register </a> </li>
+                <li> <a href="<?php echo base_url();?>index.php/Welcome/pricing">Pricing </a> </li>
+                <li> <a href="<?php echo base_url();?>index.php/Welcome/login_register">Login / Register </a> </li>
                 <li> <a href="<?php echo base_url();?>index.php/Welcome/company">Companies</a> </li>
                 <li> <a href="<?php echo base_url();?>index.php/Welcome/company_details">Companies Detail </a> </li>
-                <li> <a href="professionals.html">Professional </a> </li>
-                <li> <a href="professional-details.html">Professional Details </a> </li>
-                <li> <a href="job-board.html">Job Board </a> </li>
-                <li> <a href="job-board-details.html">Job Board Details</a> </li>
+                <li> <a href="<?php echo base_url();?>index.php/Welcome/professional">Professional </a> </li>
+                <li> <a href="<?php echo base_url();?>index.php/Welcome/professional_details">Professional Details </a> </li>
+                <li> <a href="<?php echo base_url();?>index.php/Welcome/job_board">Job Board </a> </li>
+                <li> <a href="<?php echo base_url();?>index.php/Welcome/job_board_details">Job Board Details</a> </li>
                 <li class="sub-menu"> <a href="#.">2nd Level Menu </a>
                   <ul class="dropdown-menu sec-level">
                     <li> <a href="<?php echo base_url();?>index.php/Welcome/about">About </a> </li>
-                    <li> <a href="pricing.html">Pricing </a> </li>
+                    <li> <a href="<?php echo base_url();?>index.php/Welcome/pricing">Pricing </a> </li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li> <a href="<?php echo base_url();?>index.php/Welcome/company">Companies</a> </li>
-            <li> <a href="pricing.html">Pricing </a> </li>
+            <li> <a href="<?php echo base_url();?>index.php/Welcome/pricing">Pricing </a> </li>
             <!-- Two Link Option -->
-            <li class="dropdown"> <a href="professionals.html" class="dropdown-toggle" data-toggle="dropdown">Professionals</a>
+            <li class="dropdown"> <a href="<?php echo base_url();?>index.php/Welcome/professional" class="dropdown-toggle" data-toggle="dropdown">Professionals</a>
               <div class="dropdown-menu two-option">
                 <div class="row">
                   <ul class="col-sm-6">
                     <li> <a href="<?php echo base_url();?>index.php/Welcome">Home </a> </li>
                     <li> <a href="<?php echo base_url();?>index.php/Welcome/about">About </a> </li>
-                    <li> <a href="services.html">Services </a> </li>
+                    <li> <a href="#">Services </a> </li>
                     <li> <a href="<?php echo base_url();?>index.php/Welcome/company">Companies</a> </li>
                     <li> <a href="<?php echo base_url();?>index.php/Welcome/company_details">Companies Detail </a> </li>
-                    <li> <a href="professionals.html">Professionals </a> </li>
-                    <li> <a href="job-board.html">Job Board </a> </li>
+                    <li> <a href="<?php echo base_url();?>index.php/Welcome/professional">Professionals </a> </li>
+                    <li> <a href="<?php echo base_url();?>index.php/Welcome/job_board">Job Board </a> </li>
                   </ul>
                   <ul class="col-sm-6">
                     <li> <a href="<?php echo base_url();?>index.php/Welcome">Home </a> </li>
                     <li> <a href="<?php echo base_url();?>index.php/Welcome/about">About </a> </li>
-                    <li> <a href="services.html">Services </a> </li>
+                    <li> <a href="#">Services </a> </li>
                     <li> <a href="<?php echo base_url();?>index.php/Welcome/company">Companies</a> </li>
                     <li> <a href="<?php echo base_url();?>index.php/Welcome/company_details">Companies Detail </a> </li>
-                    <li> <a href="professionals.html">Professionals </a> </li>
-                    <li> <a href="job-board.html">Job Board </a> </li>
+                    <li> <a href="<?php echo base_url();?>index.php/Welcome/professional">Professionals </a> </li>
+                    <li> <a href="<?php echo base_url();?>index.php/Welcome/job_board">Job Board </a> </li>
                   </ul>
                 </div>
               </div>
