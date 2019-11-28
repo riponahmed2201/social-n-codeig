@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,11 +37,21 @@
 <body>
 		<div class="container-fluid-full">
 		<div class="row-fluid">
-<br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
 			<div class="row-fluid">
 				<div class="login-box">
+
+          <p style="color:red;">
+            <?php
+            $msg = $this->session->userdata('message');
+            if ($msg) {
+            echo $msg;
+            $this->session->unset_userdata('message');
+            }?>
+          </p>
+
 					<h1 class="text-center">Admin Login</h1>
-					<form class="form-horizontal" action="<?php base_url();?>Super_Admin/admin_login_check" method="post">
+					<form class="form-horizontal" action="<?php base_url();?>Admin/admin_login_check" method="post">
 						<fieldset>
 
 							<div class="input-prepend" title="Email">

@@ -15,6 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         $this->db->where('password',md5($password));
         $query  =  $this->db->get();  // akta data ante hole row() function use korbo and sob gula data ante hole result() function use korbo;
         $result = $query->row();
+        return $result;
 
         // print_r($result);
       }
