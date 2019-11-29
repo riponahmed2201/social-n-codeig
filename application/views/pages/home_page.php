@@ -5,8 +5,18 @@
     <div class="position-center-center mob-normal">
       <div class="container">
         <div class="col-lg-8 center-auto text-center">
+
+          <h1 >
+            <?php
+            $msg = $this->session->userdata('message');
+            if ($msg) {
+            echo $msg;
+            $this->session->unset_userdata('message');
+            }?>
+          </h1>
+
           <h1>Welcome to Leading Social Networking Template</h1>
-          <a href="#." class="btn">Login</a> <a href="#." class="btn">Register</a> </div>
+          <a href="<?php echo base_url();?>User/show_login_page" class="btn">Login</a> <a href="<?php echo base_url();?>User/show_register_page" class="btn">Register</a> </div>
       </div>
     </div>
   </section>
@@ -60,11 +70,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-1.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details"> Webicode </a></h5>
                 </div>
               </div>
             </div>
@@ -73,11 +83,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-2.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html"> M_Adnan </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details"> M_Adnan </a></h5>
                 </div>
               </div>
             </div>
@@ -90,11 +100,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-3.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html"> Daddy 4 Web </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details"> Daddy 4 Web </a></h5>
                 </div>
               </div>
             </div>
@@ -103,11 +113,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-4.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html">The Best Technology </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details">The Best Technology </a></h5>
                 </div>
               </div>
             </div>
@@ -122,11 +132,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-5.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html"> Daddy 4 Web </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details"> Daddy 4 Web </a></h5>
                 </div>
               </div>
             </div>
@@ -136,11 +146,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-6.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html">The Best Technology </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details">The Best Technology </a></h5>
                 </div>
               </div>
             </div>
@@ -153,11 +163,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-7.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details"> Webicode </a></h5>
                 </div>
               </div>
             </div>
@@ -167,11 +177,11 @@
               <div class="com-inside">
                 <div class="img-sec"> <img src="<?php echo  base_url();?>assets/frontend/images/company-img-8.jpg" class="img-responsive" alt="" >
                   <div class="hover-over">
-                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center"> <a href="<?php echo base_url();?>Welcome/company_details" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
                   </div>
                 </div>
                 <div class="txt-sec">
-                  <h5><a href="companies-detail.html"> M_Adnan </a></h5>
+                  <h5><a href="<?php echo base_url();?>Welcome/company_details"> M_Adnan </a></h5>
                 </div>
               </div>
             </div>

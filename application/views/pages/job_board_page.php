@@ -13,6 +13,18 @@
     </div>
   </section>
 
+
+  <h2  class="text-center" style="color:green; margin-top:20px;">
+    <?php
+    $msg = $this->session->userdata('message');
+    if ($msg) {
+    echo $msg;
+    $this->session->unset_userdata('message');
+    }?>
+  </h2>
+
+
+
   <!-- Job Board Companies -->
   <section class="padding-top-100 padding-bottom-100">
     <div class="container">

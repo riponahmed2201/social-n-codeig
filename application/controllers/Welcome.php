@@ -4,6 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Welcome extends CI_Controller {
 
 
+//   this is a default controller and in this controller including all frontend design page show.
+
+
 	public function index()
 	{
 		$data = array();
@@ -52,44 +55,44 @@ class Welcome extends CI_Controller {
 		$this->load->view('master',$data);
 	}
 
-public function job_board_details()
-{
-	$data = array();
-	$data['title'] = 'Job Board Details Page';
-	$data['maint_content'] = $this->load->view('pages/job_board_details.php','',TRUE);
-	$this->load->view('master',$data);
-}
+	public function job_board_details()
+	{
+		$data = array();
+		$data['title'] = 'Job Board Details Page';
+		$data['maint_content'] = $this->load->view('pages/job_board_details.php','',TRUE);
+		$this->load->view('master',$data);
+	}
 
-public function login_register()
-{
-	$data = array();
-	$data['title'] = 'Login Register Page';
-	$data['maint_content'] = $this->load->view('pages/login_register_page.php','',TRUE);
-	$this->load->view('master',$data);
-}
+	public function login_register()
+	{
+		$data = array();
+		$data['title'] = 'Login Register Page';
+		$data['maint_content'] = $this->load->view('pages/login_register_page.php','',TRUE);
+		$this->load->view('master',$data);
+	}
 
-public function pricing()
-{
-	$data = array();
-	$data['title'] = 'Pricing Page';
-	$data['maint_content'] = $this->load->view('pages/pricing_page.php','',TRUE);
-	$this->load->view('master',$data);
-}
+	public function pricing()
+	{
+		$data = array();
+		$data['title'] = 'Pricing Page';
+		$data['maint_content'] = $this->load->view('pages/pricing_page.php','',TRUE);
+		$this->load->view('master',$data);
+	}
 
-public function professional()
-{
-	$data = array();
-	$data['title'] = 'Professional Page';
-	$data['maint_content'] = $this->load->view('pages/professional_page.php','',TRUE);
-	$this->load->view('master',$data);
-}
+	public function professional()
+	{
+		$data = array();
+		$data['title'] = 'Professional Page';
+		$data['maint_content'] = $this->load->view('pages/professional_page.php','',TRUE);
+		$this->load->view('master',$data);
+	}
 
-public function professional_details()
-{
-	$data = array();
-	$data['title'] = 'Professional Details Page';
-	$data['maint_content'] = $this->load->view('pages/professional_details_page.php','',TRUE);
-	$this->load->view('master',$data);
-}
+	public function professional_details()
+	{
+		$data = array();
+		$data['title'] = 'Professional Details Page';
+		$data['maint_content'] = $this->load->view('pages/professional_details_page.php','',TRUE);
+		$this->load->view('master',$data);
+	}
 
 }
